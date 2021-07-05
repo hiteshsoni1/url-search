@@ -78,4 +78,7 @@
     margin-right: 0px;
     margin-bottom: 10px;
   }
+  .url-input {
+    padding-left: 0px;
+  }
 }
