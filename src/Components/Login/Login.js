@@ -24,7 +24,7 @@ const Login = (props) => {
     }
     return <div className="login">
         <div className="login-form">
-            <img src="./logo.png" className="logo" />
+            <img alt="logo" src="./logo.png" className="logo" />
             <input className="login-credential"
                 type="text" placeholder="Username"
                 value={userName}

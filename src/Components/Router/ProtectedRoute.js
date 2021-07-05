@@ -6,12 +6,12 @@ const ProtectedRoute = ({ component: Component, ...rest }) => {
             {...rest}
             render={props => {
                 if (mockLogin.isLogin()) {
-                    if ("/login" == rest.path) {
+                    if ("/login" === rest.path) {
                         return <Redirect to="/" />
                     }
                     return <Component {...props} />
                 } else {
-                    if ("/login" == rest.path) {
+                    if ("/login" === rest.path) {
                         return <Component {...props} />
                     } else {
                         return <Redirect to="/login" />

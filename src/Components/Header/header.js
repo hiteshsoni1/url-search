@@ -10,7 +10,7 @@ const Header = ({ userName, handleUrls, history }) => {
         <div className="left">
 
             <div className="user-name">
-                <img src="./user.png" height={40} style={{ marginRight: '5px' }} />
+                <img alt="profile" src="./user.png" height={40} style={{ marginRight: '5px' }} />
                 <span>{userName}</span></div>
             <Input handleUrls={handleUrls} side="left" />
         </div>

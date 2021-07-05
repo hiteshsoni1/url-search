@@ -2,7 +2,7 @@ const ADMIN = 'admin';
 const USER = 'user'
 function MockLogin() {
     this.login = (userName, password) => {
-        if (ADMIN == userName && ADMIN == password) {
+        if (ADMIN === userName && ADMIN === password) {
             localStorage.setItem(USER, userName)
             return true
         }
