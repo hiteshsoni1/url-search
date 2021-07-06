@@ -8,7 +8,7 @@ const Input = ({ side, handleUrls }) => {
     }
     return <div className={`input-with-search  ${side}`}>
         <input className="url-input"
-            defaultValue='http://' type="text"
+            defaultValue='https://' type="text"
             onBlur={setUrl}
             onKeyPress={onKeyPress}
         />
